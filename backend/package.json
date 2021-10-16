@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ezb": "npx ts-node-dev src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ezbackend/common": "0.0.115",
+    "@ezbackend/core": "0.0.115",
+    "@ezbackend/cors": "0.0.115",
+    "@ezbackend/utils": "0.0.115"
+  },
+  "devDependencies": {
+    "@ezbackend/db-ui": "0.0.115",
+    "@ezbackend/openapi": "0.0.115",
+    "@types/node": "^16.11.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4"
+  }
+}
